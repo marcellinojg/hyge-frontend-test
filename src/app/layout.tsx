@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${plus_jakarta_sans.className} bg-gradient-to-b from-[#061430] to-[#101111]`}>
-        <header className="relative">
+        <header className="relative overflow-hidden">
           {/* white shade */}
           <div className="absolute w-screen mx-auto top-1/2 left-0 lg:flex hidden gap-[10vw] justify-center items-start -z-30">
             <div className="w-[80px] h-[300px] -translate-x-1/2 rounded-full bg-gradient-radial opacity-[0.03] from-white to-transparent blur-xl">
