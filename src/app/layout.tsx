@@ -50,7 +50,7 @@ export default function RootLayout({
                 </span>
               </h1>
               <p className="text-xl text-white/80">Schedule a free 30 mins call with us</p>
-              <button className="bg-blue-600 py-4 px-8 rounded-full self-center">Book an appointment</button>
+              <button className="bg-blue-600 hover:bg-blue-500 transition duration-300 py-4 px-8 rounded-full self-center">Book an appointment</button>
             </div>
             {/* Big Circles */}
             <div className="absolute lg:w-[90vw] lg:h-[90vw] w-[150vw] h-[200vw] from-white/[0.02] to-black bg-gradient-to-b bottom-0 translate-y-[80%] rounded-full -z-10 shadow-[0px_-5px_70px_8px_#026BEC5D] ">
