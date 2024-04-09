@@ -93,7 +93,7 @@ export default function Page() {
                 <ClientList>
                     <Fade cascade direction="right" damping={0.2}>
                         {Array(13).fill(1).map((_, index) =>
-                            <ClientBadge>
+                            <ClientBadge key={index}>
                                 <Image className="lg:h-[50px] h-[40px] w-auto object-contain" src={`/img/client/stock_${index + 1}.png`} width={100} height={300} alt="Client logo" />
                             </ClientBadge>
                         )}

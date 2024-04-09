@@ -34,7 +34,7 @@ export default function Page({ params }: { params: { id: string } }) {
                     <h2 className="lg:text-2xl text-xl font-bold">Tech stack</h2>
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 backdrop-blur-sm from-[#061430] via-[#04173e] to-[#061430] bg-gradient-to-br p-4 rounded-lg border-[1px] border-white/20 ">
                         {portfolio.stack.map(s => <>
-                            <div className="bg-transparent rounded-lg border-[1px] border-white/20 w-full p-4 flex items-center justify-center">
+                            <div key={s.name} className="bg-transparent rounded-lg border-[1px] border-white/20 w-full p-4 flex items-center justify-center">
                                 <div className="lg:py-8 flex flex-col gap-4 text-center">
                                     <Image src={s.path} alt={s.name} width={100} height={100} className="lg:h-[100px] lg:w-[100px] h-[75px] w-[75px] object-contain mx-auto" />
                                     <span className="lg:text-lg">{s.name}</span>

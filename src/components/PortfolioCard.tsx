@@ -21,7 +21,7 @@ const PortfolioCard = (props: PortfolioCardProps) => {
             <div className="bg-transparent rounded-lg border-[1px] border-white/20 mt-6 w-full p-4 lg:space-y-8 space-y-5">
                 <CategoryList>
                     <Fade cascade duration={700} direction="up">
-                        {categories.map(category => <CategoryBadge>{category}</CategoryBadge>)}
+                        {categories.map(category => <CategoryBadge key={category}>{category}</CategoryBadge>)}
                     </Fade>
                 </CategoryList>
                 <Fade cascade>
