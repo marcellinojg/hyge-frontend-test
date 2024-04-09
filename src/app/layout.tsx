@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${plus_jakarta_sans.className} bg-gradient-to-b from-[#061430] to-[#101111]`}>
+      <body className={`${plus_jakarta_sans.className} bg-gradient-to-b from-[#061430] to-[#101111] text-white`}>
         <header className="relative overflow-hidden">
           {/* white shade */}
           <div className="absolute w-screen mx-auto top-1/2 left-0 lg:flex hidden gap-[10vw] justify-center items-start -z-30">
