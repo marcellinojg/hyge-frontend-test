@@ -25,7 +25,7 @@ export default function Page({ params }: { params: { id: string } }) {
                 <div className="flex lg:flex-row flex-col lg:items-center gap-4">
                     <span className="text-2xl pr-5 font-bold">Our Role</span>
                     <CategoryList>
-                        {portfolio.categories.map(category => <CategoryBadge>{category}</CategoryBadge>)}
+                        {portfolio.categories.map(category => <CategoryBadge key={category}>{category}</CategoryBadge>)}
                     </CategoryList>
                 </div>
                 <div className="lg:my-28 my-20 flex flex-col gap-10">

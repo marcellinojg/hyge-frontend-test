@@ -27,7 +27,7 @@ const Navbar = () => {
                         <NavLink href={ROUTES.STATIC.LANDING} text="FAQs" />
                     </div>
                     <button className="p-3 px-6 bg-gray-500/30 text-gray-200/50 rounded-full hover:text-white hover:from-teal-500 hover:via-blue-600 hover:to-blue-500 hover:bg-gradient-to-r transition-all duration-300 lg:block hidden">
-                        Let's Talk
+                        Let&apos;s Talk
                     </button>
                 </div>
             </nav>
@@ -61,7 +61,7 @@ const FloatingNavbarButton = ({ setIsMobileNavbarActive }: { setIsMobileNavbarAc
                 <FaBars />
             </button>
             <button className="p-3 px-6 text-white rounded-full from-teal-500 via-blue-600 to-blue-500 bg-gradient-to-r transition-all duration-300 lg:hidden block">
-                Let's Talk
+                Let&apos;s Talk
             </button>
         </div>
     </div>
