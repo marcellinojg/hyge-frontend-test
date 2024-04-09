@@ -60,7 +60,7 @@ export default function RootLayout({
             <div className="absolute lg:w-[90vw] lg:h-[200vw] w-[150vw] h-[550vw] from-white/[0.02] to-black bg-gradient-to-b bottom-0 translate-y-[80%] rounded-full -z-30 shadow-[20px_-5px_50px_2px_#026BEC5D]">
             </div>
             {/* Map on Mobile */}
-            <Image src={'/img/map.png'} width={1000} height={300} alt="Map illustration" className="absolute lg:hidden scale-150 top-0 -left-1/4" />
+            <Image src={'/img/map.png'} width={1000} height={300} alt="Map illustration" className="absolute lg:hidden scale-150 top-0 -left-1/4 -z-20" />
           </section>
           {/* Divider */}
           <div className="w-full h-[2px] from-transparent via-gray-700/40 to-transparent bg-gradient-to-r">
