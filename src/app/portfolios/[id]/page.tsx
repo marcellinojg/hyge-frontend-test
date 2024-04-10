@@ -21,7 +21,11 @@ export default function Page({ params }: { params: { id: string } }) {
                     <BsArrowLeft />
                     Go Back
                 </button>
-                <Image src={portfolio.imgPath} width={500} height={500} alt="Preview portfolio" className="w-full my-12" />
+                <div className="relative my-12">
+                    <div className="absolute from-[#061430] via-transparent to-transparent bg-gradient-to-t w-full h-full top-0 left-0">
+                    </div>
+                    <Image src={portfolio.imgPath} width={500} height={500} alt="Preview portfolio" className="w-full" />
+                </div>
                 <div className="flex lg:flex-row flex-col lg:items-center gap-4">
                     <span className="text-2xl pr-5 font-bold">Our Role</span>
                     <CategoryList>
